@@ -1,8 +1,10 @@
-from ..libraries import libEmailSender
+import sys
+sys.path.append("../libraries")
+import libEmailSender
 
 subject = "This is a subject123."
 content = "This is the content of the email itself."
-imagePath = f'...'
+imageAbsPath = f'...'
 receiverEmail = "..."
 senderEmail = "..."
 senderPassword = "..."
