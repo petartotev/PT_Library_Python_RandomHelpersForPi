@@ -1,5 +1,5 @@
 # PT_Library_Python_UltimatePythotev
-PT_Library_Python_UltimatePythotev is a public repository whih contains a collection of libraries and demos written in Python.  
+PT_Library_Python_UltimatePythotev is a public repository which contains a collection of libraries and demos written in Python.  
 These are mostly simple scripts for personal use which could come in handy in personal projects, especially ones usings Raspberry Pi.
 
 Some of those are:
