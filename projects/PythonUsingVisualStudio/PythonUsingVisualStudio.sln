@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pythotev_project_read_data_from_csv_file", "pythotev_project_read_data_from_csv_file\pythotev_project_read_data_from_csv_file.pyproj", "{56F84076-5870-4B69-B41D-FF64297021E4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pythotev_project_00_tests", "pythotev_project_00_tests\pythotev_project_00_tests.pyproj", "{9FFDDCD2-6B34-48C6-B46E-D67FC7F54099}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56F84076-5870-4B69-B41D-FF64297021E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F84076-5870-4B69-B41D-FF64297021E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFDDCD2-6B34-48C6-B46E-D67FC7F54099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFDDCD2-6B34-48C6-B46E-D67FC7F54099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80C3B232-6E93-44D7-9931-7828CC87393A}
+	EndGlobalSection
+EndGlobal
