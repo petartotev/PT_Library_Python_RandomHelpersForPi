@@ -14,6 +14,7 @@ def main():
     """
     If !this => ERR: "Missing function or method docstring [C:missing-function-docstring]".
     """
+    input1 = input()
     print("Hello World!")
     print(datetime.datetime.now())
     if len(sys.argv) >= 1:

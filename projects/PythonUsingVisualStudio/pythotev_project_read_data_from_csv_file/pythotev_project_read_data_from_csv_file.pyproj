@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>56f84076-5870-4b69-b41d-ff64297021e4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>src\pythotev_project_read_data_from_csv_file.py</StartupFile>
+    <StartupFile>pythotev_project_chart_visualization.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,14 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="src\pythotev_project_read_data_from_csv_file.py" />
-    <Compile Include="src\pythotev_project_00_tests.py" />
+    <Compile Include="pythotev_project_chart_visualization.py" />
+    <Compile Include="pythotev_project_read_data_from_csv_file.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\" />
+    <Folder Include="res\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="src\pythotev_project_read_data_from_csv_file_data.csv" />
+    <Content Include="res\adventureworks2019_person_person.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
