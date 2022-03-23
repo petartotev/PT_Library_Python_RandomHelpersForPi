@@ -31,14 +31,16 @@ def visualize_chart_something():
 
 def visualize_chart_movement_winner_worm_from_txt_files():
     line_x, line_t = read_lines_from_txt_file()
-    plt.plot(line_t.split(', '), line_x.split(', '))
+    line_x_int = list(map(int, line_x.split(', ')))
+    line_t_float = list(map(float, line_t.split(', ')))
+    plt.plot(line_x_int, line_t_float)
     plt.xlabel("x nums")
     plt.ylabel("t nums")
     plt.show()
 
 
 def main():
-    # visualize_chart_something()
+    visualize_chart_something()
     visualize_chart_movement_winner_worm_from_txt_files()
 
 
