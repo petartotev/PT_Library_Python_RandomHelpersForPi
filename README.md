@@ -2,6 +2,8 @@
 PT_Library_Python_UltimatePythotev is a public repository which contains a collection of libraries and demos written in Python.  
 These are mostly simple scripts for personal use which could come in handy in personal projects, especially ones usings Raspberry Pi.
 
+![Cover Image](projects/PythonUsingVisualStudio/pythotev_project_read_data_from_csv_file/img/figure_2_worms_all.png)
+
 Some of those are:
 - Libraries
 	- pythotevLibEmailSender.py - creates a SMTP client and makes it easy for one to send emails;

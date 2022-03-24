@@ -29,6 +29,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="res\adventureworks2019_person_person.csv" />
+    <Content Include="res\data_blue_t.txt" />
+    <Content Include="res\data_blue_x.txt" />
     <Content Include="res\t.txt" />
     <Content Include="res\x.txt" />
   </ItemGroup>
