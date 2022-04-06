@@ -2,9 +2,9 @@ import datetime
 from time import sleep
 from PyP100 import PyP100
 
-ip = "192.168.0.141"
-username = "petar@petartotev.net"
-password = "Arol0220"
+ip = "192.168.1.234"
+username = "email@email.com"
+password = "passwordpassword"
 
 p100 = PyP100.P100(ip, username, password)
 
