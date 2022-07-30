@@ -1,10 +1,15 @@
 # PT_Library_Python_UltimatePythotev
+
+## General Information
+
 PT_Library_Python_UltimatePythotev is a public repository which contains a collection of libraries and demos written in Python.  
-These are mostly simple scripts for personal use which could come in handy in personal projects, especially ones usings Raspberry Pi.
 
 ![Cover Image](projects/PythonUsingVisualStudio/pythotev_project_read_data_from_csv_file/img/figure_2_worms_all.png)
 
-Some of those are:
+These are mostly simple scripts for personal use which could come in handy in personal projects, especially ones usings Raspberry Pi.
+
+## Solution
+
 - Libraries
 	- pythotevLibEmailSender.py - creates a SMTP client and makes it easy for one to send emails;
 	- pythotevLibHttpFootballApi.py - uses the **v3.football.api-sports.io** API in order to gather some football data on demand;
