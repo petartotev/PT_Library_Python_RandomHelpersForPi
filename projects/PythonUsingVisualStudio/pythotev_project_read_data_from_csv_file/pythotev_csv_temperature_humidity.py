@@ -9,18 +9,18 @@ import csv
 x = []
 y = []
   
-with open('C:/Projects/PT_Library_Python_UltimatePythotev/projects/PythonUsingVisualStudio/pythotev_project_read_data_from_csv_file/res/temp.csv','r') as csvfile:
+with open('C:/Projects/PT_Library_Python_UltimatePythotev/projects/PythonUsingVisualStudio/pythotev_project_read_data_from_csv_file/res/temp_1.csv','r') as csvfile:
     lines = csv.reader(csvfile, delimiter=',')
     for row in lines:
         x.append(row[0])
         y.append(float(row[1])) # temperature
-        #y.append(int(row[2])) # humidity
-  
-plt.plot(x, y, color = 'g', linestyle = 'dashed', marker = 'o',label = "Weather Data")
-  
-plt.xticks(rotation = 25)
+        #y.append(float(row[2])) # humidity
+
+plt.plot(x, y, color = 'r', linestyle = 'dashed', marker = 'o',label = "temperature")  
+#plt.plot(x, y, color = 'b', linestyle = 'dashed', marker = 'o',label = "humidity")  
+plt.xticks(rotation = 90)
 plt.xlabel('Date')
-plt.ylabel('Temperature(%)')
+plt.ylabel('Temperature(°C)')
 #plt.ylabel('Humidity(%)')
 plt.title('Weather Report', fontsize = 20)
 plt.grid()
