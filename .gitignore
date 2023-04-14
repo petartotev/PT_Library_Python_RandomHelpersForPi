@@ -4,4 +4,4 @@
 *.pyc
 *.save
 
-/bin
+bin/
