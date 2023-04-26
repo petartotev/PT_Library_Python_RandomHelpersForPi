@@ -4,7 +4,7 @@ import imghdr
 
 somethingWentWrong = "Something went wrong while "
 
-def setMessage(subject, content, receiverEmail):
+def set_message(subject, content, receiverEmail):
     try:
         msg = email.message.EmailMessage()
         msg.set_content(content)
@@ -14,14 +14,14 @@ def setMessage(subject, content, receiverEmail):
     except:
         print(somethingWentWrong + "setting the message.")
     
-def attachImageToMessage(msg, filePath):
+def attach_csv_file_to_message(msg, filePath):
     try:
         fileData = open(filePath, 'rb').read()
         msg.add_attachment(fileData, maintype='image', subtype=imghdr.what(None, fileData))
     except:
         print(somethingWentWrong + "attaching the image.")
     
-def sendEmail(msg, senderGmail, passwordGmail):
+def send_email(msg, senderGmail, passwordGmail):
     try:
         msg['From'] = senderGmail
         session = smtplib.SMTP('smtp.gmail.com', 587)
