@@ -31,7 +31,7 @@ ax1.pie(quantity, labels=aqi_explicit, autopct='%1.1f%%', shadow=True, startangl
 #ax1.pie(quantity, labels=aqi, autopct='%1.1f%%', shadow=True, startangle=90, explode=explode)
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
-plt.title('2023-04 | Dust AQI', fontsize = 15, y=1.05)
+plt.title('Dust AQI | 2023-04-17 - 2023-04-29', fontsize = 15, y=1.05)
 plt.grid()
 plt.legend()
 

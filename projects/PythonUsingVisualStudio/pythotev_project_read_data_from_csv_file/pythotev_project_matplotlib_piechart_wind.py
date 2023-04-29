@@ -22,15 +22,15 @@ for i in reversed(range(len(quantity))):
         del quantity[i]
         del directions[i]
 
-explode = (0.05, 0.04, 0.03, 0.02, 0.01)
+#explode = (0.05, 0.04, 0.03, 0.02, 0.01)
 colors=['olivedrab', 'rosybrown', 'gray', 'saddlebrown']
 
 fig1, ax1 = plt.subplots()
-ax1.pie(quantity, labels=directions, explode=explode, autopct='%1.1f%%', shadow=False, startangle=90, textprops={'fontsize': 12})
-#ax1.pie(quantity, labels=directions, autopct='%1.1f%%', shadow=True, startangle=90)
+ax1.pie(quantity, labels=directions, autopct='%1.1f%%', shadow=False, startangle=90, textprops={'fontsize': 12})
+#ax1.pie(quantity, labels=directions, explode=explode, autopct='%1.1f%%', shadow=True, startangle=90)
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
-plt.title('2023-04-26 | Wind direction', fontsize = 15, y=1.05)
+plt.title('Wind direction | 2023-04-26 - 2023-04-29', fontsize = 15, y=1.05)
 plt.grid()
 plt.legend()
 
